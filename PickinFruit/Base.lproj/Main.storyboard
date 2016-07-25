@@ -39,9 +39,9 @@
                                 <rect key="frame" x="0.0" y="120" width="375" height="233"/>
                             </pickerView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z9t-CE-N2h">
-                                <rect key="frame" x="187" y="166.5" width="0.0" height="0.0"/>
+                                <rect key="frame" x="187" y="167" width="0.0" height="0.0"/>
                                 <fontDescription key="fontDescription" type="system" weight="black" pointSize="46"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <view alpha="0.40000000000000002" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2fP-tt-v6H" userLabel="Btm Background View">
@@ -85,6 +85,7 @@
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
+                        <outlet property="fruitPicker" destination="Hqg-RL-roi" id="UBt-bz-YMp"/>
                         <outlet property="resultLabel" destination="z9t-CE-N2h" id="jR8-KO-Jss"/>
                         <outlet property="spinButton" destination="OrZ-qi-3Ge" id="j09-Jd-I6p"/>
                     </connections>
